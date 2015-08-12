@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>OFFICE</Machine>
+    <WindowsUser>Brad</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>io.cordova.myapp9b06f8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>DC8855DCB8DA460C4BD3D03E8C7F7C091FA65F6E74E50583F5E13E949286D814</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>io.cordova.myapp9b06f8_1.0.0.0_neutral__54dbk1tt7zbhy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>io.cordova.myapp9b06f8_54dbk1tt7zbhy!io.cordova.myapp9b06f8</RegisteredUserModeAppID>
+    <RegisteredPackageID>io.cordova.myapp9b06f8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Temp Cert</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-29T13:19:29.846</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-29T13:19:28.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-29T13:19:28.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-29T13:19:28.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-29T13:19:28.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-29T13:19:28.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-29T13:19:28.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-29T13:19:28.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\facebook-wrap.png">
+      <PackagePath>www\img\facebook-wrap.png</PackagePath>
+      <Modified>2015-07-29T13:19:28.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\facebook.png">
+      <PackagePath>www\img\facebook.png</PackagePath>
+      <Modified>2015-07-29T13:19:28.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\mail.png">
+      <PackagePath>www\img\mail.png</PackagePath>
+      <Modified>2015-07-29T13:19:28.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\phone.png">
+      <PackagePath>www\img\phone.png</PackagePath>
+      <Modified>2015-07-29T13:19:28.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\twitter-wrap.png">
+      <PackagePath>www\img\twitter-wrap.png</PackagePath>
+      <Modified>2015-07-29T13:19:28.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\twitter.png">
+      <PackagePath>www\img\twitter.png</PackagePath>
+      <Modified>2015-07-29T13:19:28.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\about.html">
+      <PackagePath>www\about.html</PackagePath>
+      <Modified>2015-07-29T13:19:28.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\contact.html">
+      <PackagePath>www\contact.html</PackagePath>
+      <Modified>2015-07-29T13:19:28.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2015-07-29T13:19:28.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2015-07-29T13:19:28.143</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2015-07-29T13:19:28.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+      <Modified>2015-07-29T13:19:28.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+      <Modified>2015-07-29T13:19:28.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+      <Modified>2015-07-29T13:19:28.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\main.css">
+      <PackagePath>www\css\main.css</PackagePath>
+      <Modified>2015-07-29T13:19:28.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\normalize.css">
+      <PackagePath>www\css\normalize.css</PackagePath>
+      <Modified>2015-07-29T13:19:28.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\responsive.css">
+      <PackagePath>www\css\responsive.css</PackagePath>
+      <Modified>2015-07-29T13:19:28.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\nick.jpg">
+      <PackagePath>www\img\nick.jpg</PackagePath>
+      <Modified>2015-07-29T13:19:28.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\numbers-01.jpg">
+      <PackagePath>www\img\numbers-01.jpg</PackagePath>
+      <Modified>2015-07-29T13:19:28.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\numbers-02.jpg">
+      <PackagePath>www\img\numbers-02.jpg</PackagePath>
+      <Modified>2015-07-29T13:19:28.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\numbers-06.jpg">
+      <PackagePath>www\img\numbers-06.jpg</PackagePath>
+      <Modified>2015-07-29T13:19:28.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\numbers-09.jpg">
+      <PackagePath>www\img\numbers-09.jpg</PackagePath>
+      <Modified>2015-07-29T13:19:28.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\numbers-12.jpg">
+      <PackagePath>www\img\numbers-12.jpg</PackagePath>
+      <Modified>2015-07-29T13:19:28.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2015-07-29T13:19:29.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\build\windows\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-07-29T13:19:29.705</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

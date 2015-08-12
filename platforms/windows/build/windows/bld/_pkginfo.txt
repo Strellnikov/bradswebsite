@@ -1,0 +1,1 @@
+C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\AppPackages\CordovaApp.Windows_1.0.0.0_anycpu_Test\CordovaApp.Windows_1.0.0.0_anycpu.appx
