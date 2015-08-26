@@ -3,4 +3,7 @@
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\Brad\AppData\Local\Temp\bradswebsite_refcache</ReferenceCachePath>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Windows-AnyCPU'">
+    <DebuggerFlavor>WindowsLocal</DebuggerFlavor>
+  </PropertyGroup>
 </Project>

@@ -8,70 +8,56 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 </head>
 <body>
     <header>
         <a href="index.html" id="logo">
-            <h1>Brad Price</h1>
+            <h1>Brad and Tif's Website</h1>
+            <h2>Brad Price</h2>
             <h2>Designer</h2>
         </a>
         <nav>
             <ul>
-                <li><a href="index.html">Portfolio</a></li>
-                <li><a href="about.html" class="selected">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" class="selected">Sign In</a></li>
+                <li><a href="about.html">Brad's Stuff</a></li>
+                <li><a href="tiffany.html">Tif's Stuff</a></li>
             </ul>
         </nav>
     </header>
-    <div id="wrapper">
+    <div>
+        <br />
+        <br />
         <section>
-            <form action="indext.html" method="post">
+            <form action="index.html" method="post">
 
-                <h1>Sign Up</h1>
+                <fieldset style="text-align:center">
 
-                <fieldset>
+                    <legend>Please register</legend>
 
-                    <legend><span class="number">1</span>Your basic info</legend>
+                    <p><label class="title" for="name">Your name</label>
+                       <input type="text" id="name" name="usr_name"><br />
+                       <label class="title" for="mail">Your email</label>
+                       <input type="email" id="mail" name="usr_email"></p>
+                    <p><label for="location" class="title">Your geographic location</label>
+                       <select name="usr_location" id="location">
+                           <option value="ne">Northeast</option>
+                           <option value="ma">Mid-Atlanic</option>
+                           <option value="se">Southeast</option>
+                           <option value="mw">Mid-West</option>
+                           <option value="pl">Plains</option>
+                           <option value="we">West</option>
+                       </select></p>
 
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="usr_name">
-
-                    <label for="mail">Email</label>
-                    <input type="email" id="mail" name="usr_email">
-
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="usr_password">
-
-                    <label>Age:</label>
-                    <input type="radio" id="under_13" value="under_13" name="usr_age"><label for="under_13" class="light">Under 13</label>
-                    <br>
-                    <input type="radio" id="over_13" value="over_13" name="usr_age"><label for="over_13" class="light">13 or older</label>
                 </fieldset>
 
                 <fieldset>
 
                     <legend><span class="number">2</span>Your profile</legend>
 
-                    <label for="bio">Biography</label>
-                    <textarea id="bio" name="usr_bio"></textarea>
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="usr_comments"></textarea>
 
-                    <label for="job">Job role</label>
-                    <select id="job" name="usr_job">
-                        <optgroup label="Web">
-                            <option value="frontend_developer">Front-end developer</option>
-                            <option value="php_developer">Front-PHP developer</option>
-                            <option value="python_developer">Python developer</option>
-                        </optgroup>
-                        <optgroup label="Mobile">
-                            <option value="android_developer">Android developer</option>
-                            <option value="ios_developer">IOS developer</option>
-                            <option value="mobile">Mobile designer</option>
-                        </optgroup>
-                        <optgroup label="Business">
-                            <option value="business_owner">Bussiness owner</option>
-                            <option value="freelancer">Freelancer</option>
-                        </optgroup>
-                    </select>
 
                     <label>Interests:</label>
                     <input type="checkbox" id="development" value="interest_developmnt" name="usr_interest"><label class="light" for="development">Development</label><br>
@@ -80,16 +66,47 @@
 
                 </fieldset>
 
-                <button type="submit">Sign Up</button>
+                <button type="submit">Sign In</button>
 
             </form>
-
-      </section>
-<footer>
-    <img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon">
-    <a href="http://facebook.com/tiffany.price.547"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-    <p>&copy; 2015 Brad Price.</p>
-</footer>
+            <!--      <ul id="gallery">
+                     <li>
+                       <a href="img/numbers-01.jpg">
+                         <img src="img/numbers-01.jpg" alt="">
+                         <p>Experimentation with color and texture.</p>
+                       </a>
+                     </li>
+                     <li>
+                       <a href="img/numbers-02.jpg">
+                         <img src="img/numbers-02.jpg" alt="">
+                         <p>Playing with blending modes in Photoshop</p>
+                       </a>
+                     </li>
+                     <li>
+                       <a href="img/numbers-06.jpg">
+                         <img src="img/numbers-06.jpg" alt="">
+                         <p>Trying to create an 80's style of glows.</p>
+                       </a>
+                     </li>
+                     <li>
+                       <a href="img/numbers-09.jpg">
+                         <img src="img/numbers-09.jpg" alt="">
+                         <p>Drips created using Photoshop brushes.</p>
+                       </a>
+                     </li>
+                     <li>
+                       <a href="img/numbers-12.jpg">
+                         <img src="img/numbers-12.jpg" alt="">
+                         <p>Creating shapes using repetition.</p>
+                       </a>
+                     </li>
+                   </ul> -->
+        </section>
+        <footer>
+            <img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon">
+            <a href="http://facebook.com/tiffany.price.547"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+            <p>&copy; 2015 Brad Price.</p>
+        </footer>
     </div>
-  </body>
+</body>
 </html>

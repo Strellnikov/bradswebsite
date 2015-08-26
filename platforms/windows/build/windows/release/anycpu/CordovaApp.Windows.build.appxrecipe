@@ -91,9 +91,6 @@
     <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\main.css">
       <PackagePath>www\css\main.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\mainform.css">
-      <PackagePath>www\css\mainform.css</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\normalize.css">
       <PackagePath>www\css\normalize.css</PackagePath>
     </AppxPackagedFile>

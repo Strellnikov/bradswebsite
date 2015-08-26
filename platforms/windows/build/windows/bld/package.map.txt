@@ -22,7 +22,6 @@
 "C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\scripts\platformOverrides.js" "www\scripts\platformOverrides.js"
 "C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\scripts\winstore-jscompat.js" "www\scripts\winstore-jscompat.js"
 "C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\main.css" "www\css\main.css"
-"C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\mainform.css" "www\css\mainform.css"
 "C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\normalize.css" "www\css\normalize.css"
 "C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\css\responsive.css" "www\css\responsive.css"
 "C:\Users\Brad\Documents\Visual Studio 2015\Projects\bradandtiffany\bradswebsite\platforms\windows\www\img\bradandtiffany.jpg" "www\img\bradandtiffany.jpg"
