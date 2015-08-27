@@ -29,40 +29,45 @@
         <br />
         <br />
         <section>
+        <img src="img/bradandtiffany.jpg" alt="Photograph of Brad & Tiffany Price" class="profile-photo">
+        <section>
             <form action="index.html" method="post">
 
-                <fieldset style="text-align:center">
+                <fieldset>
 
                     <legend>Please register</legend>
 
-                    <p><label class="title" for="name">Your name</label>
-                       <input type="text" id="name" name="usr_name"><br />
-                       <label class="title" for="mail">Your email</label>
-                       <input type="email" id="mail" name="usr_email"></p>
-                    <p><label for="location" class="title">Your geographic location</label>
-                       <select name="usr_location" id="location">
-                           <option value="ne">Northeast</option>
-                           <option value="ma">Mid-Atlanic</option>
-                           <option value="se">Southeast</option>
-                           <option value="mw">Mid-West</option>
-                           <option value="pl">Plains</option>
-                           <option value="we">West</option>
-                       </select></p>
+                    <p><label class="title" for="name">Your name
+                            <input type="text" id="name" name="usr_name"></label><br />
+                       <label class="title" for="mail">Your email
+                            <input type="email" id="mail" name="usr_email"></label></p>
 
                 </fieldset>
 
                 <fieldset>
 
-                    <legend><span class="number">2</span>Your profile</legend>
+                    <legend><span class="number"></span>Your profile</legend>
 
-                    <label for="comments">Comments</label>
-                    <textarea id="comments" name="usr_comments"></textarea>
-
-
-                    <label>Interests:</label>
-                    <input type="checkbox" id="development" value="interest_developmnt" name="usr_interest"><label class="light" for="development">Development</label><br>
-                    <input type="checkbox" id="design" value="interest_design" name="usr_interest"><label class="light" for="design">Design</label><br>
-                    <input type="checkbox" id="business" value="interest_business" name="usr_interest"><label class="light" for="business">Business</label>
+                    <p><label>Interests:
+                        <input type="checkbox" id="development" value="interest_developmnt" name="usr_interest"><label class="light" for="development">Development</label><br>
+                        <input type="checkbox" id="design" value="interest_design" name="usr_interest"><label class="light" for="design">Design</label><br>
+                        <input type="checkbox" id="business" value="interest_business" name="usr_interest"><label class="light" for="business">Business</label>
+                      </label>
+                    </p>
+                    <p><label for="location" class="title">Your geographic location</label>
+                       <select name="usr_location" id="location">
+                           <option value="ne">Northeast</option>
+                           <option value="ma">Mid-Atlantic</option>
+                           <option value="se">Southeast</option>
+                           <option value="mw">Mid-West</option>
+                           <option value="pl">Plains</option>
+                           <option value="we">West</option>
+                       </select>
+                    </p><br />
+                    <p><label for="comments">Comments
+                            <textarea id="comments" name="usr_comments"></textarea>
+                        </label>
+                    </p>
 
                 </fieldset>
 
