@@ -35,39 +35,45 @@
 
                 <fieldset>
 
-                    <legend>Please register</legend>
+                    <legend><strong>Please register</strong></legend>
 
-                    <p><label class="title" for="name">Your name
-                            <input type="text" id="name" name="usr_name"></label><br />
-                       <label class="title" for="mail">Your email
-                            <input type="email" id="mail" name="usr_email"></label></p>
+                    <div><label class="title" for="name"><strong>Your name</strong>
+                            <input type="text" id="name" name="usr_name" required="required" tabindex="1">
+                       </label><br />
+                       <label class="title" for="mail"><strong>Your email</strong>
+                           <input type="email" id="mail" name="usr_email" required="required" tabindex="2">
+                       </label>
+                    </div>
 
                 </fieldset>
 
                 <fieldset>
 
-                    <legend><span class="number"></span>Your profile</legend>
+                    <legend><span class="number"></span><strong>Your profile</strong></legend>
 
-                    <p><label>Interests:
-                        <input type="checkbox" id="development" value="interest_developmnt" name="usr_interest"><label class="light" for="development">Development</label><br>
-                        <input type="checkbox" id="design" value="interest_design" name="usr_interest"><label class="light" for="design">Design</label><br>
-                        <input type="checkbox" id="business" value="interest_business" name="usr_interest"><label class="light" for="business">Business</label>
+                    <div><label><strong>Interests:</strong><br />
+                        <input type="checkbox" id="development" value="interest_developmnt" name="usr_interest" tabindex="3">
+                            <label class="light" for="development">Development</label><br>
+                        <input type="checkbox" id="design" value="interest_design" name="usr_interest" tabindex="4">
+                            <label class="light" for="design">Design</label><br>
+                        <input type="checkbox" id="business" value="interest_business" name="usr_interest" tabindex="5">
+                            <label class="light" for="business">Business</label>
                       </label>
-                    </p>
-                    <p><label for="location" class="title">Your geographic location</label>
+                    </div>
+                    <div><label for="location" class="title">Your geographic location</label>
                        <select name="usr_location" id="location">
+                           <option value="se">Southeast</option>
                            <option value="ne">Northeast</option>
                            <option value="ma">Mid-Atlantic</option>
-                           <option value="se">Southeast</option>
                            <option value="mw">Mid-West</option>
                            <option value="pl">Plains</option>
                            <option value="we">West</option>
                        </select>
-                    </p><br />
-                    <p><label for="comments">Comments
-                            <textarea id="comments" name="usr_comments"></textarea>
+                    </div><br />
+                    <div><label for="comments">Comments
+                            <textarea id="comments" name="usr_comments" tabindex="6"></textarea>
                         </label>
-                    </p>
+                    </div>
 
                 </fieldset>
 
