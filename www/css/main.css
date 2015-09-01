@@ -6,8 +6,13 @@ GENERAL
 
 body {
     margin: 0;
+    padding-top: 70px;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.85em;
+}
+
+.container {
+    max-width: 1000px;
 }
 
 form {
@@ -257,6 +262,15 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
   color: #32673f;
 }
+/* Jumotron
+==============*/
+
+.jumbotron {
+    text-align: center;
+    
+}
+
+
 
 
 

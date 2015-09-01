@@ -3,121 +3,108 @@
 <head>
     <meta charset="utf-8">
     <title>Brad Price</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    
 </head>
 <body>
-    <header>
-        <a href="index.html" id="logo">
-            <h1>Brad and Tif's Website</h1>
-            <h2>Brad Price</h2>
-            <h2>Designer</h2>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="selected">Sign In</a></li>
-                <li><a href="about.html">Brad's Stuff</a></li>
-                <li><a href="tiffany.html">Tif's Stuff</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div>
-        <br />
-        <br />
-        <section>
-        <img src="img/bradandtiffany.jpg" alt="Photograph of Brad & Tiffany Price" class="profile-photo">
-        <section>
-            <form action="index.html" method="post">
-
-                <fieldset>
-
-                    <legend><strong>Please register</strong></legend>
-
-                    <div><label class="title" for="name"><strong>Your name</strong>
-                            <input type="text" id="name" name="usr_name" required="required" tabindex="1">
-                       </label><br />
-                       <label class="title" for="mail"><strong>Your email</strong>
-                           <input type="email" id="mail" name="usr_email" required="required" tabindex="2">
-                       </label>
-                    </div>
-
-                </fieldset>
-
-                <fieldset>
-
-                    <legend><span class="number"></span><strong>Your profile</strong></legend>
-
-                    <div><label><strong>Interests:</strong><br />
-                        <input type="checkbox" id="development" value="interest_developmnt" name="usr_interest" tabindex="3">
-                            <label class="light" for="development">Development</label><br>
-                        <input type="checkbox" id="design" value="interest_design" name="usr_interest" tabindex="4">
-                            <label class="light" for="design">Design</label><br>
-                        <input type="checkbox" id="business" value="interest_business" name="usr_interest" tabindex="5">
-                            <label class="light" for="business">Business</label>
-                      </label>
-                    </div>
-                    <div><label for="location" class="title">Your geographic location</label>
-                       <select name="usr_location" id="location">
-                           <option value="se">Southeast</option>
-                           <option value="ne">Northeast</option>
-                           <option value="ma">Mid-Atlantic</option>
-                           <option value="mw">Mid-West</option>
-                           <option value="pl">Plains</option>
-                           <option value="we">West</option>
-                       </select>
-                    </div><br />
-                    <div><label for="comments">Comments
-                            <textarea id="comments" name="usr_comments" tabindex="6"></textarea>
-                        </label>
-                    </div>
-
-                </fieldset>
-
-                <button type="submit">Sign In</button>
-
-            </form>
-            <!--      <ul id="gallery">
-                     <li>
-                       <a href="img/numbers-01.jpg">
-                         <img src="img/numbers-01.jpg" alt="">
-                         <p>Experimentation with color and texture.</p>
-                       </a>
-                     </li>
-                     <li>
-                       <a href="img/numbers-02.jpg">
-                         <img src="img/numbers-02.jpg" alt="">
-                         <p>Playing with blending modes in Photoshop</p>
-                       </a>
-                     </li>
-                     <li>
-                       <a href="img/numbers-06.jpg">
-                         <img src="img/numbers-06.jpg" alt="">
-                         <p>Trying to create an 80's style of glows.</p>
-                       </a>
-                     </li>
-                     <li>
-                       <a href="img/numbers-09.jpg">
-                         <img src="img/numbers-09.jpg" alt="">
-                         <p>Drips created using Photoshop brushes.</p>
-                       </a>
-                     </li>
-                     <li>
-                       <a href="img/numbers-12.jpg">
-                         <img src="img/numbers-12.jpg" alt="">
-                         <p>Creating shapes using repetition.</p>
-                       </a>
-                     </li>
-                   </ul> -->
-        </section>
-        <footer>
-            <img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon">
-            <a href="http://facebook.com/tiffany.price.547"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-            <p>&copy; 2015 Brad Price.</p>
-        </footer>
+    <!-- Navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-muted">Brad and Tiffany's Website</a>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Sign In</a></li>
+                    <li><a href="about.html">Brad's Stuff</a></li>
+                    <li><a href="tiffany.html">Tif's Stuff</a></li>
+                </ul>
+                
+            </div>
+            
+        </div>
+        
     </div>
+    <!-- end Navbar -->
+    
+    <div class="container">
+    
+        <div>
+            <br />
+            <br />
+            <section>
+            <img src="img/bradandtiffany.jpg" alt="Photograph of Brad & Tiffany Price" class="profile-photo">
+            <section>
+                <form action="index.html" method="post">
+
+                    <fieldset>
+
+                        <legend><strong>Please register</strong></legend>
+
+                        <div><label class="title" for="name"><strong>Your name</strong>
+                                <input type="text" id="name" name="usr_name" required="required" tabindex="1">
+                           </label><br />
+                           <label class="title" for="mail"><strong>Your email</strong>
+                               <input type="email" id="mail" name="usr_email" required="required" tabindex="2">
+                           </label>
+                        </div>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend><span class="number"></span><strong>Your profile</strong></legend>
+
+                        <div><label><strong>Interests:</strong><br />
+                            <input type="checkbox" id="development" value="interest_developmnt" name="usr_interest" tabindex="3">
+                                <label class="light" for="development">Development</label><br>
+                            <input type="checkbox" id="design" value="interest_design" name="usr_interest" tabindex="4">
+                                <label class="light" for="design">Design</label><br>
+                            <input type="checkbox" id="business" value="interest_business" name="usr_interest" tabindex="5">
+                                <label class="light" for="business">Business</label>
+                          </label>
+                        </div>
+                        <div><label for="location" class="title">Your geographic location</label>
+                           <select name="usr_location" id="location">
+                               <option value="se">Southeast</option>
+                               <option value="ne">Northeast</option>
+                               <option value="ma">Mid-Atlantic</option>
+                               <option value="mw">Mid-West</option>
+                               <option value="pl">Plains</option>
+                               <option value="we">West</option>
+                           </select>
+                        </div><br />
+                        <div><label for="comments">Comments
+                                <textarea id="comments" name="usr_comments" tabindex="6"></textarea>
+                            </label>
+                        </div>
+
+                    </fieldset>
+
+                    <button type="submit">Sign In</button>
+
+                </form>
+
+            </section>
+            <footer>
+                <img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon">
+                <a href="http://facebook.com/tiffany.price.547"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+                <p>&copy; 2015 Brad Price.</p>
+            </footer>
+        </div>
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    
 </body>
 </html>
