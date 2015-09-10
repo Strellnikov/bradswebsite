@@ -5,13 +5,14 @@ GENERAL
 ***************************************************/
 
 body {
+    /* background-color: grey; */
     margin: 0;
     padding-top: 70px;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.85em;
 }
 
-.container {
+.container {;
     max-width: 1000px;
 }
 
@@ -228,8 +229,8 @@ COLORS
 
 /*   site  body  */
 body {
-  background-color: #fff;
-  color: #999;
+  background-image: url('../img/absurdidad.png');
+  /* color: #999; */
 }
 
 /* green header */
